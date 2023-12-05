@@ -1,1 +1,1 @@
-Estou na aual  Curso Angular #09: Property Binding e Interpolação
+Estou na aula Curso Angular #11: Event binding
