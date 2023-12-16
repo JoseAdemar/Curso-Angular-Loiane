@@ -1,1 +1,1 @@
-Estou na aula Curso Angular #11: Event binding
+Estou na aula Curso Angular #15: Ciclo de vida do Componente
