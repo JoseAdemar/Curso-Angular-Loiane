@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-data-binding',
   templateUrl: './data-binding.component.html',
   styleUrl: './data-binding.component.less'
 })
-export class DataBindingComponent {
-
+export class DataBindingComponent implements OnInit{
+   
     url = "http:loiane.trainning.com.br";
     cursoAngular = true;
     imgCarro = "https://cdn.motor1.com/images/mgl/AkB8vL/s3/fiat-mobi-2023.jpg";
@@ -17,6 +17,15 @@ export class DataBindingComponent {
 
     nomeDoCurso = 'Angular';
     valorInicial = 15;
+    valorVindoDoEvento: string = '';
+
+    ngOnInit(): void {
+      console.log('Chamou construtor PAI')
+    }
+
+    capturarNomeChange(novoNome: any){
+     this.valorVindoDoEvento = novoNome;
+    }
 
     onMudouValor(evento: any){
       console.log(evento.novoValor);

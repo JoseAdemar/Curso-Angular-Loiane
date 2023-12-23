@@ -1,1 +1,1 @@
-Estou na aula Curso Angular #15: Ciclo de vida do Componente
+Estou na aula Curso Angular #16: Acesso ao DOM e ao Template com ViewChild
